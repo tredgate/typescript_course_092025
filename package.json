@@ -1,0 +1,25 @@
+{
+  "name": "typescript_course_092025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tredgate/typescript_course_092025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tredgate/typescript_course_092025/issues"
+  },
+  "homepage": "https://github.com/tredgate/typescript_course_092025#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
