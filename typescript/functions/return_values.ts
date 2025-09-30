@@ -7,8 +7,17 @@ function generateUsername(prefix: string) {
   console.log("Toto se nevypíše (je za return)");
 }
 
+function generateNumber(): number {
+  const randomNumber = Math.random() * 1_000_000;
+  const roundRandomNumber = Math.round(randomNumber);
+  return roundRandomNumber;
+}
+
 const adminUser = generateUsername("admin");
 const customerUser = generateUsername("customer");
+const randomNumber1 = generateNumber();
+const randomNumber2 = generateNumber();
 
 console.log("Admin uživatel: " + adminUser);
 console.log("Customer uživatel: " + customerUser);
+console.log("Číslo1: " + randomNumber1 + ", Číslo2: " + randomNumber2);

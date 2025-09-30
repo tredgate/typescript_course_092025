@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "strict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
+    "types": ["@types/node"],
+    "resolveJsonModule": true
+  },
+  "include": ["typescript"],
+  "exclude": ["node_modules", "dist"]
+}

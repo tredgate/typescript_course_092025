@@ -1,0 +1,6 @@
+{
+  "name": "Jan",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["TypeScript", "JavaScript", "Node.js"]
+}
