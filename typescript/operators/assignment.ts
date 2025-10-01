@@ -1,6 +1,6 @@
 // typescript/operators/assignment.ts
 let number = 4;
-let number2 = 5;
+const number2 = 5;
 
 // * tradiční součet dvou čísel a přiřazení do jednoho:
 number = number + number2;

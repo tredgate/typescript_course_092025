@@ -1,3 +1,7 @@
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-var */
+
 let firstName = "Jirka"; // ? Deklarace a inicializace proměnné
 let lastName; // ? Samotná deklarace
 lastName = "Novák"; // ? Samotná inicializace

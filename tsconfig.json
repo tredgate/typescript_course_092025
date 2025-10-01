@@ -3,15 +3,19 @@
     "target": "es2020",
     "module": "es2020",
     "strict": true,
-    "baseUrl": ".",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "moduleResolution": "node",
-    "types": ["@types/node"],
-    "resolveJsonModule": true
+    "types": ["@types/node", "@types/mocha", "@types/chai"],
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": false,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["typescript"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["typescript/**/*.ts", "tests/**/*.spec.ts", "src/**/*.ts"],
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "esm": true
+  }
 }

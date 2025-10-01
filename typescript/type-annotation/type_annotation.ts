@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prefer-const */
 let appName = "Tredgate"; // ?  Typová interference (automatické přiřazení typu): string - text
 let phone; // ? typová interference: any (cokoliv), protože jsme nezadali žádnou hodnotu
 
